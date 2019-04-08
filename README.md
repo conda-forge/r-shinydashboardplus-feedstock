@@ -1,9 +1,9 @@
 About r-shinydashboardplus
 ==========================
 
-Home: https://github.com/DivadNojnarg/shinydashboardPlus, http://130.60.24.205/shinydashboardPlus/#
+Home: https://github.com/RinteRface/shinydashboardPlus, https://rinterface.com/shiny/shinydashboardPlus/
 
-Package license: GPL-2
+Package license: GPL (>= 2)
 
 Feedstock license: BSD 3-Clause
 
@@ -115,10 +115,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
-* [@cbrueffer](https://github.com/cbrueffer/)
-* [@daler](https://github.com/daler/)
-* [@dbast](https://github.com/dbast/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
 
