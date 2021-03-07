@@ -25,14 +25,20 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
+    - r-fresh
     - r-htmltools
+    - r-lifecycle
     - r-shiny
     - r-shinydashboard
+    - r-waiter
   run:
     - r-base
+    - r-fresh
     - r-htmltools
+    - r-lifecycle
     - r-shiny
     - r-shinydashboard
+    - r-waiter
 
 test:
   commands:
@@ -44,10 +50,10 @@ about:
   license: GPL-2.0-or-later
   summary: "Extend 'shinydashboard' with 'AdminLTE2' components.  'AdminLTE2' is a free 'Bootstrap 3' dashboard template available at <https://adminlte.io>. Customize boxes, add timelines and a lot more. "
   license_family: GPL3
-
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
     - LICENSE
+
 extra:
   recipe-maintainers:
     - conda-forge/r
