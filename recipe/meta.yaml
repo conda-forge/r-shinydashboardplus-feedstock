@@ -1,4 +1,4 @@
-{% set version = "0.7.5" %}
+{% set version = "2.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shinydashboardPlus_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shinydashboardPlus/shinydashboardPlus_{{ version }}.tar.gz
-  sha256: 3eae1281c9416c81a2eab4d40894a7db4cfe1a033a2e25f06197b6f30fe00c3c
+  sha256: b64e1756e0f15611ac3dee0164b1b77c4b537db58c1fc7858319d0732a15e9e4
 
 build:
   merge_build_host: true  # [win]
@@ -25,14 +25,20 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
+    - r-fresh
     - r-htmltools
+    - r-lifecycle
     - r-shiny
     - r-shinydashboard
+    - r-waiter
   run:
     - r-base
+    - r-fresh
     - r-htmltools
+    - r-lifecycle
     - r-shiny
     - r-shinydashboard
+    - r-waiter
 
 test:
   commands:
@@ -44,10 +50,10 @@ about:
   license: GPL-2.0-or-later
   summary: "Extend 'shinydashboard' with 'AdminLTE2' components.  'AdminLTE2' is a free 'Bootstrap 3' dashboard template available at <https://adminlte.io>. Customize boxes, add timelines and a lot more. "
   license_family: GPL3
-
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
     - LICENSE
+
 extra:
   recipe-maintainers:
     - conda-forge/r
