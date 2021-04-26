@@ -36,6 +36,7 @@ Installing `r-shinydashboardplus` from the `conda-forge` channel can be achieved
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-shinydashboardplus` can be installed with:
