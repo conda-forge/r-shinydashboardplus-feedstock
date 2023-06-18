@@ -1,11 +1,11 @@
-About r-shinydashboardplus
-==========================
+About r-shinydashboardplus-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinydashboardplus-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/RinteRface/shinydashboardPlus, https://rinterface.com/shiny/shinydashboardPlus/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinydashboardplus-feedstock/blob/main/LICENSE.txt)
 
 Summary: Extend 'shinydashboard' with 'AdminLTE2' components.  'AdminLTE2' is a free 'Bootstrap 3' dashboard template available at <https://adminlte.io>. Customize boxes, add timelines and a lot more. 
 
