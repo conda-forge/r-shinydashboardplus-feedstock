@@ -1,4 +1,4 @@
-{% set version = "2.0.3" %}
+{% set version = "2.0.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shinydashboardPlus_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shinydashboardPlus/shinydashboardPlus_{{ version }}.tar.gz
-  sha256: 49a88cfa396f880ff4faf558bb038763084287c932e27b0c9251f4d676584d83
+  sha256: b87cd038ed94235d6210a434d1fa80abac3ecea47e01ad8d9892ec4023ea9385
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
