@@ -1,4 +1,4 @@
-{% set version = "2.0.5" %}
+{% set version = "2.0.6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shinydashboardPlus_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shinydashboardPlus/shinydashboardPlus_{{ version }}.tar.gz
-  sha256: 0bc34cd75f6df1d9c6cb8e7e98e18c5c9c4f739ef54c8d79462597dd1cf3a3cc
+  sha256: 2681d51d08639aba38e38c14346397f9712696acb762edc017f6c07f8341a038
 
 build:
   number: 0
